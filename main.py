@@ -26,7 +26,7 @@ def atm():
 
     balance = 3000.00
     correct_pin = "1234"
-    print("Welcome to Suriya Bank!")
+    print("Welcome to GBS Bank!")
 
     card = input("Please insert your card (yes/no): ").strip().lower()
 
@@ -57,6 +57,7 @@ def atm():
 
         choice = input("Choose your transaction: ").strip().lower()
 
+            
         if choice in ["d", "deposit", "cash deposit"]:
             print(f"Available balance before deposit: ₹{balance:.2f}")
             amount = float(input("Enter deposit amount: ₹"))
